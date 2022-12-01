@@ -45,3 +45,6 @@ def main():
   astar_maze_solver(maze_for_astar, [1, 1], [m-2, n-2])
   print("Tiempo de ejecucion A*: %s segundos" % (time.time() - start_time_a_estrella))
   print_maze(maze_for_astar)
+
+if __name__ == "__main__":
+  main()
