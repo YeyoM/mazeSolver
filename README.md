@@ -20,6 +20,8 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+[![Product Name Screen Shot][product-screenshot]](https://github.com/YeyoM/mazeSolver)
+
 ### What does this project do?
 
 This project uses various techniques to generate and solve a maze using python in an easy way, to generate the maze we follow the following steps:
@@ -76,3 +78,5 @@ YeyoM - [@YeyoMoreno24](https://twitter.com/YeyoMoreno24) - yeyomoreno2003@hotma
 
 Maze Solver - [https://github.com/YeyoM/mazeSolver](https://github.com/YeyoM/mazeSolver)
 
+<!-- MARKDOWN LINKS & IMAGES -->
+[product-screenshot]: public/screenshot.png

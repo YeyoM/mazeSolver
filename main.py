@@ -29,22 +29,22 @@ def main():
  
   start_time_dfs = time.time()
   dfs_maze_solver(maze_for_dfs, [1, 1], [m-2, n-2])
-  print("Tiempo de ejecucion DFS: %s segundos" % (time.time() - start_time_dfs))
+  print("Execution time DFS: %s seconds" % (time.time() - start_time_dfs))
   print_maze(maze_for_dfs)
 
   start_time_bfs = time.time()
   bfs_maze_solver(maze_for_bfs, [1, 1], [m-2, n-2])
-  print("Tiempo de ejecucion BFS: %s segundos" % (time.time() - start_time_bfs))
+  print("Execution time BFS: %s seconds" % (time.time() - start_time_bfs))
   print_maze(maze_for_bfs)
 
   start_time_dijkstra = time.time()
   dijkstra_maze_solver(maze_for_dijkstra, [1, 1], [m-2, n-2])
-  print("Tiempo de ejecucion Dijkstra: %s segundos" % (time.time() - start_time_dijkstra))
+  print("Execution time Dijkstra: %s seconds" % (time.time() - start_time_dijkstra))
   print_maze(maze_for_dijkstra)
 
   start_time_a_estrella = time.time()
   astar_maze_solver(maze_for_astar, [1, 1], [m-2, n-2])
-  print("Tiempo de ejecucion A*: %s segundos" % (time.time() - start_time_a_estrella))
+  print("Execution time A*: %s seconds" % (time.time() - start_time_a_estrella))
   print_maze(maze_for_astar)
 
 if __name__ == "__main__":
