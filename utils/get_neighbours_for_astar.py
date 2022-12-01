@@ -1,4 +1,4 @@
-from get_neighbours_for_search import get_neighbours_for_search
+from utils.get_neighbours_for_search import get_neighbours_for_search
 
 def get_neighbours_for_astar(maze, i, j, visited, heuristic):
   """

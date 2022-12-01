@@ -1,6 +1,6 @@
 import math
-from ..utils.get_neighbours_for_astar import get_neighbours_for_astar
-from ..utils.sort_dictionary import sort_dictionary
+from utils.get_neighbours_for_astar import get_neighbours_for_astar
+from utils.sort_dictionary import sort_dictionary
 
 def astar_maze_solver(maze, start, end):
   """

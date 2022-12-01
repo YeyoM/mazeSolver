@@ -1,25 +1,26 @@
 import time
 
 # Utils
-from .utils.generate_grid import generate_grid
-from .utils.print_maze import print_maze
-from .utils.carve import carve
-from .utils.modify import modify
+from utils.generate_grid import generate_grid
+from utils.print_maze import print_maze
+from utils.carve import carve
+from utils.modify import modify
 
 # Algorithms
-from .algorithms.dfs_maze_solver import dfs_maze_solver
-from .algorithms.bfs_maze_solver import bfs_maze_solver
-from .algorithms.dijkstra_maze_solver import dijkstra_maze_solver
-from .algorithms.astar_maze_solver import astar_maze_solver
+from algorithms.dfs_maze_solver import dfs_maze_solver
+from algorithms.bfs_maze_solver import bfs_maze_solver
+from algorithms.dijkstra_maze_solver import dijkstra_maze_solver
+from algorithms.astar_maze_solver import astar_maze_solver
 
 def main():
 
   m = 41
   n = 41
+  maze = []
 
-  grid = generate_grid(n, m, maze)
-  maze = carve(grid)
-  maze = modify(maze, m, n)
+  maze = generate_grid(n, m, maze)
+  carve(maze)
+  modify(maze, m, n)
 
   maze_for_dfs = maze.copy()
   maze_for_bfs = maze.copy()

@@ -1,5 +1,5 @@
 import random
-from .utils.get_neighbours_for_search import get_neighbours_for_search
+from utils.get_neighbours_for_search import get_neighbours_for_search
 
 def dfs_maze_solver(maze, start, end):
   """

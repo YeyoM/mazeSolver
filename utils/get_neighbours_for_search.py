@@ -1,4 +1,4 @@
-from get_neighbours import get_neighbours
+from utils.get_neighbours import get_neighbours
 
 def get_neighbours_for_search(maze, i, j, visited):
   """

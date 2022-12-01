@@ -1,6 +1,6 @@
 import math
-from ..utils.get_neighbours_for_dijkstra import get_neighbours_for_dijkstra
-from ..utils.sort_dictionary import sort_dictionary
+from utils.get_neighbours_for_dijkstra import get_neighbours_for_dijkstra
+from utils.sort_dictionary import sort_dictionary
 
 def dijkstra_maze_solver(maze, start, end):
   """
